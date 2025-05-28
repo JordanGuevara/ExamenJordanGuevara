@@ -1,5 +1,5 @@
 <?php
-
+// Asignaicon de la tabla con sus campos respectivos desde codigo en ves de sql
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

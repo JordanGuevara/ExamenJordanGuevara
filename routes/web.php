@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Conexion hacia los php que se quiere mostrar dentro de la pagina web
 use App\Http\Controllers\ComputadorController;
 
 Route::resource('computador', ComputadorController::class);

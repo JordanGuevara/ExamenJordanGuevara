@@ -1,7 +1,7 @@
 @php
 $computador = $computador ?? null;
 @endphp
-
+{{-- Formulario que permite el editar o mostrar lo que contiene el producto en si --}}
 <div class="mb-2">
     <label>Código Tienda</label>
     <input type="text" name="codigo_tienda" class="form-control" value="{{ old('codigo_tienda', $computador->codigo_tienda ?? '') }}">

@@ -1,5 +1,5 @@
 <?php
-
+// Controlador donde se puede hacer el CRUD de la base de datos que corresponde.
 namespace App\Http\Controllers;
 
 use App\Models\Computador;
